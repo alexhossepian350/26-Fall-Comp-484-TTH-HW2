@@ -1,0 +1,17 @@
+1B:
+Comp 484 (h1) with header                               
+    Structuring Pages (h2) 
+        Conveying meaning through structure (h3) with article
+        Sectioning elements (h3) with section
+        Document outlines (h3) with section
+            W3C Warning (h4) with aside
+        WAI-ARIA Roles (h3) with section
+
+header (role="banner") - the top block of the page, holds the h1, the h2 and the nav
+nav (role="navigation") - the site menu, the list of links to the other 6 pages
+main (role="main") - wraps the content so a screen reader can skip past the header and menu
+article - the actual page content, marked this way since it could be by istelf
+header (the second one, inside the article) - the intro, heading, and first paragraph
+section - each of the three main topics under the article
+aside (role="complementary") - the W3C Warning box, extra info that isn't required to understand the section it sits in
+footer (role="contentinfo") - bottom of the page with the CSUN address
